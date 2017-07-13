@@ -12,8 +12,10 @@ $(document).ready(function(){
 
 // back-end logic
 var cryptText = function(userInput) {
-  var sqWordLength = Math.ceil(Math.sqrt(userInput.length));
-  console.log(sqWordLength);
+  var textLength = userInput.length;
+  var rows = Math.ceil(Math.sqrt(textLength));
+  var columns = Math.floor(Math.sqrt(textLength));
+  console.log("There are " + rows + " rows and " + columns + " columns");
 
 
 }
