@@ -14,11 +14,11 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 | Behavior      | Input         | Output        |
 | ------------- | ------------- | ------------- |
-|take message and count number of characters not including punctuation and spaces|Is word|6|
-| separate the counted  characters|Is word| "I" "s" "w" "o" "r" "d"|
-| make characters lowercase | "I" "s" "w" "o" "r" "d"   | "i" "s" "w" "o" "r" "d"|
-| re-arrange characters | "i" "s" "w" "o" "r" "d"   |"d" "o" "s" "r" "d" "i"|
-| group re-arranged characters in groups less than or equal to five| "d" "o" "s" "r" "d" "i" | "dosrd" "i"|
+|take a message and remove punctuation and spaces |Is word|Isword|
+| take message and convert all lowercase |Isword| isword|
+| count number of letters in string| "i" "s" "w" "o" "r" "d"   | 6 |
+| take square root of number and calculate rows and columns  | 2.446   |3x2|
+| arrange the sting of letters into three arrays with 2 elements per array| "d" "o" "s" "r" "d" "i" |[i,s][w,o][r,d]|
 
 
 
