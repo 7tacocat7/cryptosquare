@@ -18,7 +18,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | take message and convert all lowercase |Isword| isword|
 | count number of letters in string| "i" "s" "w" "o" "r" "d"   | 6 |
 | take square root of number and calculate rows and columns  | 2.446   |3x2|
-| arrange the sting of letters from left to right into 3 groups with 2 elements per group| "d" "o" "s" "r" "d" "i" |[i,s][w,o][r,d]|
+| arrange the sting of letters from left to right into 3 groups with 2 elements per group| "i" "s" "w" "o" "r" "d" |[i,s][w,o][r,d]|
 
 
 
