@@ -19,7 +19,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | count number of letters in string| "i" "s" "w" "o" "r" "d"   | 6 |
 | take square root of number and calculate rows and columns  | 2.446   |3x2|
 | arrange the sting of letters from left to right into 3 groups with 2 elements per group| "i" "s" "w" "o" "r" "d" |[i,s][w,o][r,d]|
-
+|take the first letter of each group and add to a list| [i,s][w,o][r,d]| iwr|
+|take the second letter of each group and add to same list|[i,s][w,o][r,d]|iwrsod|
+|take the list and add a space after each fifth letter| iwrsod | iwrso d|
 
 
 ## Setup/Installation Requirements
